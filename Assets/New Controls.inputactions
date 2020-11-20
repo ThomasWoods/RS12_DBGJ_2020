@@ -1,0 +1,52 @@
+{
+    "name": "New Controls",
+    "maps": [
+        {
+            "name": "CameraControls",
+            "id": "a289fae1-5103-44dc-aebb-e018f68a2f83",
+            "actions": [
+                {
+                    "name": "move actions",
+                    "type": "Button",
+                    "id": "55df3dd9-412e-4ced-9b32-757003c64d20",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "look actions",
+                    "type": "Value",
+                    "id": "059761ad-6034-4e4a-af01-b5cbe49f638e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "44433d37-dca0-4353-999d-be1d10420063",
+                    "path": "<Keyboard>/w",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move actions",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9b8de87b-cb76-4fdb-833b-4203197afad4",
+                    "path": "<Mouse>/scroll/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "look actions",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
